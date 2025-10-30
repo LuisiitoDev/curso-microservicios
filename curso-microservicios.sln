@@ -6,8 +6,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGlobal", "src\ApiGlobal\ApiGlobal.csproj", "{4A42B047-E70C-117D-7040-84D9485A68C9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{2A1E0829-C14F-45CC-BE78-4FBB38566D88}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservices", "microservices", "{D5EE6CB7-74B5-499E-BBB6-308EB8BAEB85}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspire-microservice.AppHost", "microservicios\aspire-microservice\aspire-microservice.AppHost\aspire-microservice.AppHost.csproj", "{6A318000-6FE0-4E58-A76E-A435D7B45F5C}"
