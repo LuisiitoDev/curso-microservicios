@@ -3,10 +3,8 @@ using ApiGlobal.Models;
 
 namespace ApiGlobal.Data
 {
-    public class DataContext : DbContext
+    public class DataContext(DbContextOptions<DataContext> options) : DbContext(options)
     {
-        public DataContext(DbContextOptions<DataContext> options) : base(options) { }
-
         public DbSet<Adult> Adults { get; set; }
 
         public DbSet<Child> Children { get; set; }
