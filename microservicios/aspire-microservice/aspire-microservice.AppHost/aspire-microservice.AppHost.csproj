@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.5.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>c3ff3888-d85e-472b-9484-066f22d071ac</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\AddAdult\AddAdult.csproj" />
+    <ProjectReference Include="..\..\AddChild\AddChild.csproj" />
+    <ProjectReference Include="..\..\AddMember\AddMember.csproj" />
+    <ProjectReference Include="..\..\GetAdultById\GetAdultById.csproj" />
+    <ProjectReference Include="..\..\GetAdults\GetAdults.csproj" />
+    <ProjectReference Include="..\..\GetChildById\GetChildById.csproj" />
+    <ProjectReference Include="..\..\GetChildren\GetChildren.csproj" />
+    <ProjectReference Include="..\..\PickAge\PickAge.csproj" />
+  </ItemGroup>
+
+</Project>
